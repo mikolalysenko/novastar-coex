@@ -1,0 +1,974 @@
+{
+  "code": 0,
+  "data": {
+    "screens": [
+      {
+        "screenID": "{00000000-0000-4000-8000-000000000001}",
+        "screenName": "Example Wall",
+        "cryptoCabinetNum": 0,
+        "createTime": "2026-04-18 10:24:58",
+        "workingMode": 0,
+        "lowLatency": false,
+        "layoutMode": 1,
+        "screenIndex": 0,
+        "monitorSlotId": 0,
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "screenGroupID": "{00000000-0000-4000-8000-000000000002}",
+        "ordinal": 0,
+        "canvases": [
+          {
+            "canvasID": 2048,
+            "backupType": 0,
+            "outputCardId": 8,
+            "outputCardModeId": 5141,
+            "canvasSerialNum": 0,
+            "inputID": 0,
+            "size": {
+              "width": 1920,
+              "height": 1080
+            },
+            "isCustomSize": true,
+            "ordinal": 0,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "rectSize": {
+              "width": 3840,
+              "height": 2160
+            },
+            "cabinets": [
+              {
+                "cabinetID": 10000000000000001,
+                "connectID": 0,
+                "outputID": 2048,
+                "pageID": 0,
+                "position": {
+                  "x": 0,
+                  "y": 1800
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000002,
+                "connectID": 1,
+                "outputID": 2048,
+                "pageID": 0,
+                "position": {
+                  "x": 0,
+                  "y": 1440
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000003,
+                "connectID": 0,
+                "outputID": 2049,
+                "pageID": 0,
+                "position": {
+                  "x": 0,
+                  "y": 1080
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000004,
+                "connectID": 1,
+                "outputID": 2049,
+                "pageID": 0,
+                "position": {
+                  "x": 0,
+                  "y": 720
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000005,
+                "connectID": 0,
+                "outputID": 2050,
+                "pageID": 0,
+                "position": {
+                  "x": 0,
+                  "y": 360
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000006,
+                "connectID": 1,
+                "outputID": 2050,
+                "pageID": 0,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000007,
+                "connectID": 0,
+                "outputID": 2051,
+                "pageID": 0,
+                "position": {
+                  "x": 640,
+                  "y": 1800
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000008,
+                "connectID": 1,
+                "outputID": 2051,
+                "pageID": 0,
+                "position": {
+                  "x": 640,
+                  "y": 1440
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000009,
+                "connectID": 0,
+                "outputID": 2052,
+                "pageID": 0,
+                "position": {
+                  "x": 640,
+                  "y": 1080
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000010,
+                "connectID": 1,
+                "outputID": 2052,
+                "pageID": 0,
+                "position": {
+                  "x": 640,
+                  "y": 720
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000011,
+                "connectID": 0,
+                "outputID": 2053,
+                "pageID": 0,
+                "position": {
+                  "x": 640,
+                  "y": 360
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000012,
+                "connectID": 1,
+                "outputID": 2053,
+                "pageID": 0,
+                "position": {
+                  "x": 640,
+                  "y": 0
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000013,
+                "connectID": 0,
+                "outputID": 2054,
+                "pageID": 0,
+                "position": {
+                  "x": 1280,
+                  "y": 1800
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000014,
+                "connectID": 1,
+                "outputID": 2054,
+                "pageID": 0,
+                "position": {
+                  "x": 1280,
+                  "y": 1440
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000015,
+                "connectID": 0,
+                "outputID": 2055,
+                "pageID": 0,
+                "position": {
+                  "x": 1280,
+                  "y": 1080
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000016,
+                "connectID": 1,
+                "outputID": 2055,
+                "pageID": 0,
+                "position": {
+                  "x": 1280,
+                  "y": 720
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000023,
+                "connectID": 0,
+                "outputID": 2059,
+                "pageID": 0,
+                "position": {
+                  "x": 1920,
+                  "y": 360
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000024,
+                "connectID": 1,
+                "outputID": 2059,
+                "pageID": 0,
+                "position": {
+                  "x": 1920,
+                  "y": 0
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000025,
+                "connectID": 0,
+                "outputID": 2060,
+                "pageID": 0,
+                "position": {
+                  "x": 2560,
+                  "y": 1800
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000026,
+                "connectID": 1,
+                "outputID": 2060,
+                "pageID": 0,
+                "position": {
+                  "x": 2560,
+                  "y": 1440
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000027,
+                "connectID": 0,
+                "outputID": 2061,
+                "pageID": 0,
+                "position": {
+                  "x": 2560,
+                  "y": 1080
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000028,
+                "connectID": 1,
+                "outputID": 2061,
+                "pageID": 0,
+                "position": {
+                  "x": 2560,
+                  "y": 720
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000029,
+                "connectID": 0,
+                "outputID": 2062,
+                "pageID": 0,
+                "position": {
+                  "x": 2560,
+                  "y": 360
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000030,
+                "connectID": 1,
+                "outputID": 2062,
+                "pageID": 0,
+                "position": {
+                  "x": 2560,
+                  "y": 0
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000031,
+                "connectID": 0,
+                "outputID": 2063,
+                "pageID": 0,
+                "position": {
+                  "x": 3200,
+                  "y": 1800
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000032,
+                "connectID": 1,
+                "outputID": 2063,
+                "pageID": 0,
+                "position": {
+                  "x": 3200,
+                  "y": 1440
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000033,
+                "connectID": 0,
+                "outputID": 2064,
+                "pageID": 0,
+                "position": {
+                  "x": 3200,
+                  "y": 1080
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000034,
+                "connectID": 1,
+                "outputID": 2064,
+                "pageID": 0,
+                "position": {
+                  "x": 3200,
+                  "y": 720
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000035,
+                "connectID": 0,
+                "outputID": 2065,
+                "pageID": 0,
+                "position": {
+                  "x": 3200,
+                  "y": 360
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000036,
+                "connectID": 1,
+                "outputID": 2065,
+                "pageID": 0,
+                "position": {
+                  "x": 3200,
+                  "y": 0
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000017,
+                "connectID": 0,
+                "outputID": 2056,
+                "pageID": 0,
+                "position": {
+                  "x": 1280,
+                  "y": 360
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000018,
+                "connectID": 1,
+                "outputID": 2056,
+                "pageID": 0,
+                "position": {
+                  "x": 1280,
+                  "y": 0
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000021,
+                "connectID": 0,
+                "outputID": 2058,
+                "pageID": 0,
+                "position": {
+                  "x": 1920,
+                  "y": 1080
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000022,
+                "connectID": 1,
+                "outputID": 2058,
+                "pageID": 0,
+                "position": {
+                  "x": 1920,
+                  "y": 720
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000019,
+                "connectID": 0,
+                "outputID": 2057,
+                "pageID": 0,
+                "position": {
+                  "x": 1920,
+                  "y": 1800
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              },
+              {
+                "cabinetID": 10000000000000020,
+                "connectID": 1,
+                "outputID": 2057,
+                "pageID": 0,
+                "position": {
+                  "x": 1920,
+                  "y": 1440
+                },
+                "size": {
+                  "width": 640,
+                  "height": 360
+                },
+                "angle": 0,
+                "lockStatus": false
+              }
+            ],
+            "groups": null,
+            "maxFrameRate": 260.41,
+            "layoutLines": null,
+            "zorder": 0,
+            "frequencyPhaseStatus": 0,
+            "lastSize": {
+              "width": 3840,
+              "height": 2160
+            },
+            "sizeMode": 0,
+            "canvasInWorkingMode": [
+              {
+                "workingMode": 0,
+                "size": {
+                  "width": 1920,
+                  "height": 1080
+                },
+                "isCustomSize": false,
+                "maxFrameRate": 65.1
+              },
+              {
+                "workingMode": 1,
+                "size": {
+                  "width": 3840,
+                  "height": 2160
+                },
+                "isCustomSize": true,
+                "maxFrameRate": 65.1
+              }
+            ]
+          }
+        ],
+        "layersInWorkingMode": [
+          {
+            "workingMode": 0,
+            "layerLayoutMode": 1,
+            "layers": [
+              {
+                "id": 1,
+                "layerIndex": 1,
+                "canvasId": 0,
+                "source": 25,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "zOrder": 1,
+                "lock": false,
+                "border": {
+                  "enable": false,
+                  "width": 0,
+                  "color": {
+                    "r": 255,
+                    "g": 0,
+                    "b": 0
+                  }
+                },
+                "cut": {
+                  "enable": false,
+                  "rect": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 128,
+                    "height": 128
+                  }
+                },
+                "scaler": {
+                  "width": 1920,
+                  "height": 1080
+                },
+                "sourceSize": {
+                  "width": 1920,
+                  "height": 1080
+                },
+                "followState": false,
+                "layerInCanvasId": 2048,
+                "layerSortId": 0,
+                "gridId": 0
+              }
+            ]
+          },
+          {
+            "workingMode": 1,
+            "layerLayoutMode": 0,
+            "layers": [
+              {
+                "id": 65537,
+                "layerIndex": 1,
+                "canvasId": 0,
+                "source": 25,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "zOrder": 1,
+                "lock": false,
+                "border": {
+                  "enable": false,
+                  "width": 0,
+                  "color": {
+                    "r": 255,
+                    "g": 0,
+                    "b": 0
+                  }
+                },
+                "cut": {
+                  "enable": false,
+                  "rect": {
+                    "x": -13440,
+                    "y": -7560,
+                    "width": 15360,
+                    "height": 8640
+                  }
+                },
+                "scaler": {
+                  "width": 3840,
+                  "height": 2160
+                },
+                "sourceSize": {
+                  "width": 1920,
+                  "height": 1080
+                },
+                "followState": false,
+                "layerInCanvasId": 0,
+                "layerSortId": 0,
+                "gridId": 0
+              },
+              {
+                "id": 65538,
+                "layerIndex": 2,
+                "canvasId": 0,
+                "source": 224,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "zOrder": 0,
+                "lock": false,
+                "border": {
+                  "enable": false,
+                  "width": 0,
+                  "color": {
+                    "r": 255,
+                    "g": 0,
+                    "b": 0
+                  }
+                },
+                "cut": {
+                  "enable": false,
+                  "rect": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 3840,
+                    "height": 2160
+                  }
+                },
+                "scaler": {
+                  "width": 3840,
+                  "height": 2160
+                },
+                "sourceSize": {
+                  "width": 3840,
+                  "height": 2160
+                },
+                "followState": false,
+                "layerInCanvasId": 0,
+                "layerSortId": 0,
+                "gridId": 123
+              }
+            ]
+          }
+        ],
+        "inputPort": {
+          "CardId": 0,
+          "HwCardId": 0,
+          "ModelId": 5141,
+          "LogicId": 512,
+          "HardwareID": "",
+          "GroupId": 25,
+          "Order": 0,
+          "InputDetailInfo": {
+            "MCUDeviceIndex": 0,
+            "MCUInterface": 0,
+            "SlotId": 2,
+            "PortIndex": 0,
+            "GroupId": 49,
+            "Type": 1,
+            "InputType": 3,
+            "SourceNumber": 5,
+            "MaxBandWidth": 6000,
+            "MaxWidth": 4092,
+            "MaxHeight": 4095,
+            "MinWidth": 800,
+            "MinHeight": 600,
+            "WidthStepVal": 4,
+            "HeightStepVal": 1,
+            "MaxSourceDepth": 12,
+            "InterlacedInputSupport": 0,
+            "HDCPVersion": 4,
+            "InterfaceUseState": 0,
+            "YcbcrSwapIn": 0,
+            "IsSupportHDR": true,
+            "IsSupportHDROverwrite": true,
+            "SilkNumber": 1,
+            "MaxCapacity": 0,
+            "MinCapacity": 0,
+            "SupportResolution": "800*600|1024*768|1152*864|1280*720|1280*800|1440*900|1600*900|1600*1200|1680*1050|1920*1080|1920*1200|2048*1080|2048*1152|2304*1024|2304*1152|2560*1080|2560*1440|2560*1600|2880*1800|3840*1080|3840*2160",
+            "SupportFrameRate": "23.98|24.00|25.00|29.97|30.00|47.95|48.00|50.00|59.94|60.00|71.93|72.00|75.00|85.00|100.00|119.88|120.00|143.86|144.00|240.00",
+            "DefaultWidth": 3840,
+            "DefaultHeight": 2160,
+            "DefaultFrameRate": 0,
+            "MaxBand": 600000000,
+            "MinBand": 25000000,
+            "Capacities": "",
+            "SupportColorSpace": "0|1|2|3|255",
+            "IsSupportSPDIF": false,
+            "SourceName": "HDMI2.0_1"
+          },
+          "InputSrcInfo": {
+            "InputType": 3,
+            "InputID": 512,
+            "ChannelId": 0,
+            "IsSupportHDR": 1,
+            "SourceStatus": 0,
+            "ColorSpaceType": 0,
+            "Range": 0,
+            "InterlacedInputFlag": 0,
+            "HDRSDRInformation": 0,
+            "CurrentSourceDepth": 0,
+            "SourceDetInColPixel": 1920,
+            "SourceDetInRowPixel": 1080,
+            "SourceFieldRate": 6000,
+            "HdcpState": 1,
+            "ColorGamut": 2,
+            "OverWriteColorGamut": 2,
+            "InPhase": 0,
+            "SourceHTotal": 2200,
+            "SourceVTotal": 1125,
+            "SourceHSyncPulse": 44,
+            "SourceVSyncPulse": 5,
+            "SourceHFrontPorch": 88,
+            "SourceVFrontPorch": 4,
+            "SourceHBackPorch": 148,
+            "SourceVBackPorch": 36,
+            "InterfaceUseState": 0,
+            "XOffset": 0,
+            "YOffset": 0,
+            "IP": "",
+            "Port": 0,
+            "FiberPortLinkStatus": null,
+            "FiberNetConfig": {
+              "masterNetConfig": {
+                "targetIp": "",
+                "targetPort": 0,
+                "videoStreamIp": "",
+                "dhcp": false,
+                "localIp": "",
+                "netMask": "",
+                "gateWay": ""
+              },
+              "backupNetConfig": {
+                "targetIp": "",
+                "targetPort": 0,
+                "videoStreamIp": "",
+                "dhcp": false,
+                "localIp": "",
+                "netMask": "",
+                "gateWay": ""
+              }
+            },
+            "VideoFormat": 0
+          },
+          "MetaData": {
+            "infoFrameType": 0,
+            "infoFrameVersion": 0,
+            "infoFramLength": 0,
+            "checksum": 0,
+            "sourceTye": 0,
+            "maxLight": 0,
+            "minMasterDisplayLight": 0,
+            "maxMasterDisplayLight": 0,
+            "maxContentLight": 0,
+            "maxFrameAvgLight": 0,
+            "whitePointX": 0,
+            "whitePointY": 0
+          },
+          "FirmwareVersion": {
+            "VersionName": "",
+            "VersionNumber": "",
+            "VersionRemark": "",
+            "FileNum": ""
+          },
+          "MonitorSlotId": 0,
+          "EnableFrameRateCorrection": false,
+          "MaxCapacityLimit": 0
+        },
+        "masterFrameRate": 60,
+        "selectedPageID": 0,
+        "pageInfos": [
+          {
+            "pageID": 0,
+            "pageName": "Page 1",
+            "isShow": true
+          },
+          {
+            "pageID": 1,
+            "pageName": "Page 2",
+            "isShow": false
+          },
+          {
+            "pageID": 2,
+            "pageName": "Page 3",
+            "isShow": false
+          },
+          {
+            "pageID": 3,
+            "pageName": "Page 4",
+            "isShow": false
+          },
+          {
+            "pageID": 4,
+            "pageName": "Page 5",
+            "isShow": false
+          },
+          {
+            "pageID": 5,
+            "pageName": "Page 6",
+            "isShow": false
+          },
+          {
+            "pageID": 6,
+            "pageName": "Page 7",
+            "isShow": false
+          },
+          {
+            "pageID": 7,
+            "pageName": "Page 8",
+            "isShow": false
+          }
+        ],
+        "outputMode": 0
+      }
+    ],
+    "screenGroups": [
+      {
+        "screenGroupID": "{00000000-0000-4000-8000-000000000002}",
+        "name": "defaultScreenGroup",
+        "isShow": false,
+        "ordinal": 0
+      }
+    ]
+  },
+  "message": "Success"
+}

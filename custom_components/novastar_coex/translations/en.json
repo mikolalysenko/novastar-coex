@@ -1,0 +1,71 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to a NovaStar COEX controller",
+        "description": "The controller's IP is shown on its front LCD. The API is plain HTTP on port 8001. The name becomes the device name and the prefix of every entity id (e.g. number.video_wall_brightness).",
+        "data": {
+          "host": "Host",
+          "port": "Port",
+          "name": "Name"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach the controller",
+      "device_locked": "The controller is locked by VMP on another computer. Close VMP and try again.",
+      "api_error": "The controller answered with an error",
+      "invalid_host": "Enter an IP address or hostname without http://, a path, or a port.",
+      "no_screens": "No configured screens were reported. Configure a screen in VMP, close VMP, then try again."
+    },
+    "abort": {
+      "already_configured": "This controller is already configured"
+    }
+  },
+  "entity": {
+    "switch": {
+      "display": {
+        "name": "Display"
+      },
+      "freeze": {
+        "name": "Freeze"
+      },
+      "mapping": {
+        "name": "Cabinet mapping"
+      }
+    },
+    "number": {
+      "brightness": {
+        "name": "Brightness"
+      },
+      "color_temperature": {
+        "name": "Color temperature"
+      },
+      "gamma": {
+        "name": "Gamma"
+      }
+    },
+    "select": {
+      "working_mode": {
+        "name": "Working mode"
+      },
+      "preset": {
+        "name": "Preset"
+      },
+      "input": {
+        "name": "Input"
+      }
+    },
+    "sensor": {
+      "temperature": {
+        "name": "Temperature"
+      },
+      "runtime": {
+        "name": "Runtime"
+      },
+      "cabinets": {
+        "name": "Cabinets"
+      }
+    }
+  }
+}

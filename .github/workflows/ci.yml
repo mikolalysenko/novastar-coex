@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  client:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.12", "3.14"]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+        with:
+          python-version: ${{ matrix.python }}
+      - run: make check
+
+  home-assistant:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        requirements: [ha-min, ha-latest]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+        with:
+          python-version: "3.14"
+      - run: make test-ha HA_REQUIREMENTS=requirements/${{ matrix.requirements }}.txt
+
+  package:
+    needs: [client, home-assistant]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+        with:
+          python-version: "3.12"
+      - run: make build
+      - name: Smoke-test the built wheel outside the checkout
+        run: |
+          uv venv /tmp/coex-wheel
+          uv pip install --python /tmp/coex-wheel/bin/python dist/*.whl
+          cd /tmp
+          /tmp/coex-wheel/bin/python -c 'from novastar_coex import CoexClient, __version__; print(__version__)'
+          /tmp/coex-wheel/bin/coex --help
+      - uses: actions/upload-artifact@v7
+        with:
+          name: release-assets
+          path: dist/
+          if-no-files-found: error

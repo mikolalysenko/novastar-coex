@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "data": {
+    "mappingState": [
+      {
+        "canvasID": 2048,
+        "enable": false
+      }
+    ],
+    "displayState": [
+      {
+        "canvasID": 2048,
+        "displayMode": 0
+      }
+    ]
+  },
+  "message": "Success"
+}

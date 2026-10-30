@@ -1,0 +1,23 @@
+name: Bug report
+description: Report a reproducible integration problem
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Controller model and firmware, Home Assistant version, integration version
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps and observed behavior
+      description: Include the action, expected result, actual result, and whether cabinets were powered and VMP was closed.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized logs or API responses
+      description: Remove tokens, private addresses, identifiers and identifying names before posting.
+      render: text

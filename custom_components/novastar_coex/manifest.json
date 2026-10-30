@@ -1,0 +1,14 @@
+{
+  "domain": "novastar_coex",
+  "name": "NovaStar COEX",
+  "codeowners": [
+    "@mikolalysenko"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/mikolalysenko/novastar-coex",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/mikolalysenko/novastar-coex/issues",
+  "requirements": [],
+  "version": "0.2.0"
+}

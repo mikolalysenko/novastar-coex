@@ -1,0 +1,74 @@
+[project]
+name = "novastar-coex"
+version = "0.2.0"
+description = "Local Home Assistant integration and async Python client for NovaStar COEX, tested on MX40 Pro"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+authors = [{ name = "Mikola Lysenko" }]
+keywords = ["novastar", "coex", "mx40", "led", "video-wall", "home-assistant"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Framework :: AsyncIO",
+  "Programming Language :: Python :: 3",
+  "Topic :: Home Automation",
+]
+dependencies = ["aiohttp>=3.9"]
+
+[project.scripts]
+coex = "novastar_coex.cli:main"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8",
+  "pytest-asyncio>=0.23",
+  "ruff==0.17.3",
+  "mypy>=1.10",
+]
+
+[project.urls]
+Homepage = "https://github.com/mikolalysenko/novastar-coex"
+Issues = "https://github.com/mikolalysenko/novastar-coex/issues"
+Changelog = "https://github.com/mikolalysenko/novastar-coex/blob/main/CHANGELOG.md"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+# Single source of truth: the client library lives INSIDE the custom component
+# (custom_components/novastar_coex/coex) so HACS / a plain copy into
+# /config/custom_components ships it with no pip dependency. The wheel remaps
+# that directory to the importable top-level package `novastar_coex`.
+[tool.hatch.build.targets.wheel]
+packages = ["custom_components/novastar_coex/coex"]
+# Editable installs can't apply the prefix rewrite below, so dev mode instead puts
+# `dev/` on sys.path, where `dev/novastar_coex` is a symlink to the vendored package.
+dev-mode-dirs = ["dev"]
+
+[tool.hatch.build.targets.wheel.sources]
+"custom_components/novastar_coex/coex" = "novastar_coex"
+
+[tool.hatch.build.targets.sdist]
+include = ["custom_components", "dev", "tests", "docs", "requirements", "scripts", "README.md", "CHANGELOG.md", "CONTRIBUTING.md", "LICENSE", "hacs.json", "Makefile"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = [".venv-*"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "ASYNC"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["novastar_coex", "custom_components"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = false
+ignore_missing_imports = true

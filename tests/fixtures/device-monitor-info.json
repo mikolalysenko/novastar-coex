@@ -1,0 +1,584 @@
+{
+  "code": 0,
+  "data": {
+    "name": "MX40 Pro",
+    "runtime": 300,
+    "totalRuntime": 1853940,
+    "mainBoardTemperature": {
+      "value": 36,
+      "status": 0,
+      "name": "Main_board Temperature",
+      "nameEn": "Main_board Temperature"
+    },
+    "mainBoardVoltage": {
+      "value": 11.84,
+      "status": 0,
+      "name": "Main_board Voltage",
+      "nameEn": "Main_board Voltage"
+    },
+    "backupStatus": {
+      "status": 0,
+      "errCode": 108,
+      "minNormalValue": 0,
+      "maxNormalValue": 0
+    },
+    "fanInfos": [
+      {
+        "fanSpeed": 1311,
+        "fanType": 0,
+        "fanShowType": 0,
+        "fanName": "chassis Fan",
+        "fanNameEn": "chassis Fan",
+        "status": 0
+      },
+      {
+        "fanSpeed": 2861,
+        "fanType": 3,
+        "fanShowType": 0,
+        "fanName": "FPGA_A Fan",
+        "fanNameEn": "FPGA_A Fan",
+        "status": 0
+      },
+      {
+        "fanSpeed": 2792,
+        "fanType": 4,
+        "fanShowType": 0,
+        "fanName": "FPGA_B Fan",
+        "fanNameEn": "FPGA_B Fan",
+        "status": 0
+      }
+    ],
+    "voltageInfos": null,
+    "temperatureInfos": null,
+    "powerMonitorInfos": [
+      {
+        "powerID": 0,
+        "status": 0
+      }
+    ],
+    "controllerPortMonitorInfos": [
+      {
+        "controllerPortID": 0,
+        "status": 2
+      },
+      {
+        "controllerPortID": 1,
+        "status": 0
+      }
+    ],
+    "imbLinkStatus": {
+      "linkStatus": false,
+      "status": 0
+    },
+    "cardMonitorInfo": null,
+    "screenSourceStatus": [
+      {
+        "inputCardID": 0,
+        "portID": 768,
+        "groupID": 40,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "inputCardID": 0,
+        "portID": 256,
+        "groupID": 26,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "inputCardID": 0,
+        "portID": 258,
+        "groupID": 27,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "inputCardID": 0,
+        "portID": 25856,
+        "groupID": 224,
+        "status": 0,
+        "linkStatus": true
+      },
+      {
+        "inputCardID": 0,
+        "portID": 512,
+        "groupID": 25,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "inputCardID": 0,
+        "portID": 1,
+        "groupID": 72,
+        "status": 0,
+        "linkStatus": false
+      }
+    ],
+    "inputFiberStatus": null,
+    "outputStatus": [
+      {
+        "outputCardID": 8,
+        "outputID": 2048,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2049,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2050,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2051,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2052,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2053,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2054,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2055,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2056,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2057,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2058,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2059,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2060,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2061,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2062,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2063,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2064,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2065,
+        "type": 0,
+        "status": 2,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2066,
+        "type": 0,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2067,
+        "type": 0,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2068,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2069,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2070,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2071,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2072,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2073,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2074,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2075,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2076,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2077,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2078,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2079,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2080,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2081,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2082,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2083,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2084,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2085,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2086,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2087,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2088,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2089,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2090,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2091,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2092,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2093,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2094,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2095,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2096,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2097,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2098,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2099,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2100,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2101,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2102,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2103,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2104,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2105,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2106,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2107,
+        "type": 5,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2108,
+        "type": 1,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2109,
+        "type": 1,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2110,
+        "type": 1,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 8,
+        "outputID": 2111,
+        "type": 1,
+        "status": 0,
+        "linkStatus": false
+      },
+      {
+        "outputCardID": 0,
+        "outputID": 0,
+        "type": 3,
+        "status": 0,
+        "linkStatus": false
+      }
+    ],
+    "cabinets": null,
+    "rvCardsRuntime": null,
+    "accessoryMonitorInfo": {
+      "transmitterStatus": [],
+      "multifunctionCardStatus": []
+    }
+  },
+  "message": "Success"
+}

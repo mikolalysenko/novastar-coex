@@ -1,0 +1,2 @@
+# Home Assistant 2026.3.1; the earliest supported and tested version.
+pytest-homeassistant-custom-component==0.13.317

@@ -1,0 +1,666 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "screenId": "{00000000-0000-4000-8000-000000000001}",
+      "lowDelay": false,
+      "additionalFrameDelay": 0,
+      "outputBitDepth": {
+        "bitDepth": 1,
+        "currentBitDepth": 1
+      },
+      "threeD": {
+        "enable": false,
+        "sourceMode": 0,
+        "eyePriority": 0,
+        "rightEyeOffset": {
+          "x": 960,
+          "y": 540
+        },
+        "threeDFrame": 0,
+        "threeDFrameList": null,
+        "threeDEmitterInfo": {
+          "enable": false,
+          "ms": 0,
+          "us": 7000
+        }
+      },
+      "currentFrameRate": 60,
+      "curtainMaxFrameRate": 0,
+      "phaseList": [
+        23.98,
+        24,
+        25,
+        29.97,
+        30,
+        47.95,
+        48,
+        50,
+        59.94,
+        60,
+        71.93,
+        72,
+        75,
+        100,
+        119.88,
+        120,
+        143.86,
+        144,
+        240
+      ],
+      "curPhase": {
+        "type": 0,
+        "value": 0,
+        "absoluteValue": {
+          "phaseline": 0,
+          "phasepixel": 0,
+          "isValid": true
+        }
+      },
+      "genlock": {
+        "masterLayerGroupId": 25,
+        "selectedType": 102,
+        "syncframeratelist": [
+          {
+            "selectedType": 100,
+            "frameratevalue": 60
+          },
+          {
+            "selectedType": 101,
+            "frameratevalue": -1
+          },
+          {
+            "selectedType": 102,
+            "frameratevalue": 60
+          }
+        ],
+        "selectSource": 224
+      },
+      "frameRemapingData": {
+        "screenId": "{00000000-0000-4000-8000-000000000001}",
+        "frameType": 2,
+        "frameSwitch": false,
+        "frameRemaping": [
+          {
+            "index": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rData": 255,
+            "gData": 255,
+            "bData": 255,
+            "customColourEn": false
+          },
+          {
+            "index": 2,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rData": 255,
+            "gData": 255,
+            "bData": 255,
+            "customColourEn": false
+          },
+          {
+            "index": 3,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rData": 255,
+            "gData": 255,
+            "bData": 255,
+            "customColourEn": false
+          },
+          {
+            "index": 4,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rData": 255,
+            "gData": 255,
+            "bData": 255,
+            "customColourEn": false
+          },
+          {
+            "index": 5,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rData": 255,
+            "gData": 255,
+            "bData": 255,
+            "customColourEn": false
+          },
+          {
+            "index": 6,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rData": 255,
+            "gData": 255,
+            "bData": 255,
+            "customColourEn": false
+          }
+        ]
+      },
+      "hDREOTFParams": {
+        "overridePeakLum": false,
+        "peakLuminance": 1000,
+        "highLightRatio": 0,
+        "darkRatio": 2,
+        "sceRatio": 0
+      },
+      "gamutList": {
+        "currentGamutName": "",
+        "colorGamutInfoList": [
+          {
+            "colorGamutInfo": {
+              "targetGamut": {
+                "name": "DCI-P3(D65)",
+                "gamut": {
+                  "rLxy": {
+                    "name": "DCI-P3(D65)",
+                    "lum": 900,
+                    "cx": 0.68,
+                    "cy": 0.32
+                  },
+                  "gLxy": {
+                    "name": "DCI-P3(D65)",
+                    "lum": 1900,
+                    "cx": 0.265,
+                    "cy": 0.69
+                  },
+                  "bLxy": {
+                    "name": "DCI-P3(D65)",
+                    "lum": 320,
+                    "cx": 0.15,
+                    "cy": 0.06
+                  },
+                  "wLxy": {
+                    "name": "D65",
+                    "lum": 3120,
+                    "cx": 0.3127,
+                    "cy": 0.329
+                  }
+                }
+              },
+              "colorTemperature": 6504
+            },
+            "fromInputStatus": false,
+            "isCustomGamut": false
+          },
+          {
+            "colorGamutInfo": {
+              "targetGamut": {
+                "name": "AdobeRGB",
+                "gamut": {
+                  "rLxy": {
+                    "name": "AdobeRGB",
+                    "lum": 900,
+                    "cx": 0.64,
+                    "cy": 0.33
+                  },
+                  "gLxy": {
+                    "name": "AdobeRGB",
+                    "lum": 1900,
+                    "cx": 0.21,
+                    "cy": 0.71
+                  },
+                  "bLxy": {
+                    "name": "AdobeRGB",
+                    "lum": 320,
+                    "cx": 0.15,
+                    "cy": 0.06
+                  },
+                  "wLxy": {
+                    "name": "D65",
+                    "lum": 3120,
+                    "cx": 0.3127,
+                    "cy": 0.329
+                  }
+                }
+              },
+              "colorTemperature": 6500
+            },
+            "fromInputStatus": false,
+            "isCustomGamut": false
+          },
+          {
+            "colorGamutInfo": {
+              "targetGamut": {
+                "name": "Rec.601-625",
+                "gamut": {
+                  "rLxy": {
+                    "name": "Rec.601-625",
+                    "lum": 900,
+                    "cx": 0.64,
+                    "cy": 0.33
+                  },
+                  "gLxy": {
+                    "name": "Rec.601-625",
+                    "lum": 1900,
+                    "cx": 0.29,
+                    "cy": 0.6
+                  },
+                  "bLxy": {
+                    "name": "Rec.601-625",
+                    "lum": 320,
+                    "cx": 0.15,
+                    "cy": 0.06
+                  },
+                  "wLxy": {
+                    "name": "D65",
+                    "lum": 3120,
+                    "cx": 0.3127,
+                    "cy": 0.329
+                  }
+                }
+              },
+              "colorTemperature": 6500
+            },
+            "fromInputStatus": false,
+            "isCustomGamut": false
+          },
+          {
+            "colorGamutInfo": {
+              "targetGamut": {
+                "name": "Rec.601-525",
+                "gamut": {
+                  "rLxy": {
+                    "name": "Rec.601-525",
+                    "lum": 900,
+                    "cx": 0.63,
+                    "cy": 0.34
+                  },
+                  "gLxy": {
+                    "name": "Rec.601-525",
+                    "lum": 1900,
+                    "cx": 0.31,
+                    "cy": 0.595
+                  },
+                  "bLxy": {
+                    "name": "Rec.601-525",
+                    "lum": 320,
+                    "cx": 0.155,
+                    "cy": 0.07
+                  },
+                  "wLxy": {
+                    "name": "D65",
+                    "lum": 3120,
+                    "cx": 0.3127,
+                    "cy": 0.329
+                  }
+                }
+              },
+              "colorTemperature": 6500
+            },
+            "fromInputStatus": false,
+            "isCustomGamut": false
+          },
+          {
+            "colorGamutInfo": {
+              "targetGamut": {
+                "name": "PAL",
+                "gamut": {
+                  "rLxy": {
+                    "name": "PAL",
+                    "lum": 900,
+                    "cx": 0.625,
+                    "cy": 0.34
+                  },
+                  "gLxy": {
+                    "name": "PAL",
+                    "lum": 1900,
+                    "cx": 0.28,
+                    "cy": 0.595
+                  },
+                  "bLxy": {
+                    "name": "PAL",
+                    "lum": 320,
+                    "cx": 0.155,
+                    "cy": 0.07
+                  },
+                  "wLxy": {
+                    "name": "D65",
+                    "lum": 3120,
+                    "cx": 0.3127,
+                    "cy": 0.329
+                  }
+                }
+              },
+              "colorTemperature": 6500
+            },
+            "fromInputStatus": false,
+            "isCustomGamut": false
+          },
+          {
+            "colorGamutInfo": {
+              "targetGamut": {
+                "name": "sRGB",
+                "gamut": {
+                  "rLxy": {
+                    "name": "sRGB",
+                    "lum": 900,
+                    "cx": 0.64,
+                    "cy": 0.33
+                  },
+                  "gLxy": {
+                    "name": "sRGB",
+                    "lum": 1900,
+                    "cx": 0.3,
+                    "cy": 0.6
+                  },
+                  "bLxy": {
+                    "name": "sRGB",
+                    "lum": 320,
+                    "cx": 0.15,
+                    "cy": 0.06
+                  },
+                  "wLxy": {
+                    "name": "D65",
+                    "lum": 3120,
+                    "cx": 0.3127,
+                    "cy": 0.329
+                  }
+                }
+              },
+              "colorTemperature": 6500
+            },
+            "fromInputStatus": false,
+            "isCustomGamut": false
+          },
+          {
+            "colorGamutInfo": {
+              "targetGamut": {
+                "name": "Rec.709",
+                "gamut": {
+                  "rLxy": {
+                    "name": "Rec.709",
+                    "lum": 692.57184699356,
+                    "cx": 0.64,
+                    "cy": 0.33
+                  },
+                  "gLxy": {
+                    "name": "Rec.709",
+                    "lum": 2194.314185390092,
+                    "cx": 0.3,
+                    "cy": 0.6
+                  },
+                  "bLxy": {
+                    "name": "Rec.709",
+                    "lum": 233.1139676163,
+                    "cx": 0.15,
+                    "cy": 0.06
+                  },
+                  "wLxy": {
+                    "name": "D65",
+                    "lum": 3120,
+                    "cx": 0.3127,
+                    "cy": 0.329
+                  }
+                }
+              },
+              "colorTemperature": 6504
+            },
+            "fromInputStatus": false,
+            "isCustomGamut": false
+          },
+          {
+            "colorGamutInfo": {
+              "targetGamut": {
+                "name": "Rec.2020",
+                "gamut": {
+                  "rLxy": {
+                    "name": "Rec.2020",
+                    "lum": 900,
+                    "cx": 0.708,
+                    "cy": 0.292
+                  },
+                  "gLxy": {
+                    "name": "Rec.2020",
+                    "lum": 1900,
+                    "cx": 0.17,
+                    "cy": 0.797
+                  },
+                  "bLxy": {
+                    "name": "Rec.2020",
+                    "lum": 320,
+                    "cx": 0.131,
+                    "cy": 0.046
+                  },
+                  "wLxy": {
+                    "name": "D65",
+                    "lum": 3120,
+                    "cx": 0.3127,
+                    "cy": 0.329
+                  }
+                }
+              },
+              "colorTemperature": 6504
+            },
+            "fromInputStatus": false,
+            "isCustomGamut": false
+          },
+          {
+            "colorGamutInfo": {
+              "targetGamut": {
+                "name": "DCI-P3(D63)",
+                "gamut": {
+                  "rLxy": {
+                    "name": "DCI-P3(D63)",
+                    "lum": 900,
+                    "cx": 0.68,
+                    "cy": 0.32
+                  },
+                  "gLxy": {
+                    "name": "DCI-P3(D63)",
+                    "lum": 1900,
+                    "cx": 0.265,
+                    "cy": 0.69
+                  },
+                  "bLxy": {
+                    "name": "DCI-P3(D63)",
+                    "lum": 320,
+                    "cx": 0.15,
+                    "cy": 0.06
+                  },
+                  "wLxy": {
+                    "name": "D63",
+                    "lum": 3120,
+                    "cx": 0.314,
+                    "cy": 0.351
+                  }
+                }
+              },
+              "colorTemperature": 6304
+            },
+            "fromInputStatus": false,
+            "isCustomGamut": false
+          },
+          {
+            "colorGamutInfo": {
+              "targetGamut": {
+                "name": "NTSC",
+                "gamut": {
+                  "rLxy": {
+                    "name": "NTSC",
+                    "lum": 900,
+                    "cx": 0.67,
+                    "cy": 0.33
+                  },
+                  "gLxy": {
+                    "name": "NTSC",
+                    "lum": 1900,
+                    "cx": 0.21,
+                    "cy": 0.71
+                  },
+                  "bLxy": {
+                    "name": "NTSC",
+                    "lum": 320,
+                    "cx": 0.14,
+                    "cy": 0.08
+                  },
+                  "wLxy": {
+                    "name": "D65",
+                    "lum": 3120,
+                    "cx": 0.31,
+                    "cy": 0.316
+                  }
+                }
+              },
+              "colorTemperature": 6776
+            },
+            "fromInputStatus": false,
+            "isCustomGamut": false
+          },
+          {
+            "colorGamutInfo": {
+              "targetGamut": {
+                "name": "Custom",
+                "gamut": {
+                  "rLxy": {
+                    "name": "Custom",
+                    "lum": 900,
+                    "cx": 0.68,
+                    "cy": 0.32
+                  },
+                  "gLxy": {
+                    "name": "Custom",
+                    "lum": 1900,
+                    "cx": 0.265,
+                    "cy": 0.69
+                  },
+                  "bLxy": {
+                    "name": "Custom",
+                    "lum": 320,
+                    "cx": 0.15,
+                    "cy": 0.06
+                  },
+                  "wLxy": {
+                    "name": "D65",
+                    "lum": 3120,
+                    "cx": 0.3127,
+                    "cy": 0.329
+                  }
+                }
+              },
+              "colorTemperature": 6504
+            },
+            "fromInputStatus": false,
+            "isCustomGamut": true
+          },
+          {
+            "colorGamutInfo": {
+              "targetGamut": {
+                "name": "",
+                "gamut": {
+                  "rLxy": {
+                    "name": "",
+                    "lum": 0,
+                    "cx": 0,
+                    "cy": 0
+                  },
+                  "gLxy": {
+                    "name": "",
+                    "lum": 0,
+                    "cx": 0,
+                    "cy": 0
+                  },
+                  "bLxy": {
+                    "name": "",
+                    "lum": 0,
+                    "cx": 0,
+                    "cy": 0
+                  },
+                  "wLxy": {
+                    "name": "",
+                    "lum": 0,
+                    "cx": 0,
+                    "cy": 0
+                  }
+                }
+              },
+              "colorTemperature": 6500
+            },
+            "fromInputStatus": false,
+            "isCustomGamut": false
+          },
+          {
+            "colorGamutInfo": {
+              "targetGamut": {
+                "name": "From input",
+                "gamut": {
+                  "rLxy": {
+                    "name": "From input",
+                    "lum": 0,
+                    "cx": 0,
+                    "cy": 0
+                  },
+                  "gLxy": {
+                    "name": "From input",
+                    "lum": 0,
+                    "cx": 0,
+                    "cy": 0
+                  },
+                  "bLxy": {
+                    "name": "From input",
+                    "lum": 0,
+                    "cx": 0,
+                    "cy": 0
+                  },
+                  "wLxy": {
+                    "name": "From input",
+                    "lum": 0,
+                    "cx": 0,
+                    "cy": 0
+                  }
+                }
+              },
+              "colorTemperature": 6500
+            },
+            "fromInputStatus": true,
+            "isCustomGamut": false
+          }
+        ]
+      },
+      "subpixelParam": {
+        "mode": 0,
+        "csc": {
+          "contrast": 100,
+          "saturation": 100,
+          "hue": 0
+        },
+        "sharpness": 100
+      },
+      "defaultSubpixelParam": [
+        {
+          "mode": 0,
+          "csc": {
+            "contrast": 100,
+            "saturation": 100,
+            "hue": 0
+          },
+          "sharpness": 100
+        },
+        {
+          "mode": 2,
+          "csc": {
+            "contrast": 100,
+            "saturation": 80,
+            "hue": 0
+          },
+          "sharpness": 100
+        },
+        {
+          "mode": 3,
+          "csc": {
+            "contrast": 110,
+            "saturation": 120,
+            "hue": 0
+          },
+          "sharpness": 100
+        }
+      ],
+      "maxBrightnessInfo": {
+        "state": false,
+        "nit": 926,
+        "ratio": 1
+      }
+    }
+  ],
+  "message": "Success"
+}

@@ -1,0 +1,25 @@
+{
+  "code": 0,
+  "data": {
+    "characteristic": 0,
+    "screenImageQualityInfo": null,
+    "multiModeInfo": [
+      {
+        "screenID": "{00000000-0000-4000-8000-000000000001}",
+        "multiModeParam": {
+          "currentCfgParam": {
+            "manufactureName": "",
+            "cabinetName": "",
+            "cardModel": "",
+            "status": "",
+            "version": "",
+            "issue": 0
+          },
+          "currentModeId": 0,
+          "modeInfo": null
+        }
+      }
+    ]
+  },
+  "message": "Success"
+}
