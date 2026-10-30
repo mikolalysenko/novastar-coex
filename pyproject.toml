@@ -41,15 +41,15 @@ build-backend = "hatchling.build"
 # that directory to the importable top-level package `novastar_coex`.
 [tool.hatch.build.targets.wheel]
 packages = ["custom_components/novastar_coex/coex"]
-# Editable installs can't apply the prefix rewrite below, so dev mode instead puts
-# `dev/` on sys.path, where `dev/novastar_coex` is a symlink to the vendored package.
+# Editable installs cannot apply this package rename. Git checkouts supply a
+# relative symlink under dev/; source distributions support ordinary installs.
 dev-mode-dirs = ["dev"]
 
 [tool.hatch.build.targets.wheel.sources]
 "custom_components/novastar_coex/coex" = "novastar_coex"
 
 [tool.hatch.build.targets.sdist]
-include = ["custom_components", "dev", "tests", "docs", "requirements", "scripts", "README.md", "CHANGELOG.md", "CONTRIBUTING.md", "LICENSE", "hacs.json", "Makefile"]
+include = ["custom_components", "tests", "docs", "requirements", "scripts", "README.md", "CHANGELOG.md", "CONTRIBUTING.md", "LICENSE", "hacs.json", "Makefile"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"

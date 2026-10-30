@@ -16,7 +16,7 @@ jobs:
         python: ["3.12", "3.14"]
     steps:
       - uses: actions/checkout@v7
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.3.3
         with:
           python-version: ${{ matrix.python }}
       - run: make check
@@ -28,7 +28,7 @@ jobs:
         requirements: [ha-min, ha-latest]
     steps:
       - uses: actions/checkout@v7
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.3.3
         with:
           python-version: "3.14"
       - run: make test-ha HA_REQUIREMENTS=requirements/${{ matrix.requirements }}.txt
@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.3.3
         with:
           python-version: "3.12"
       - run: make build
@@ -49,7 +49,15 @@ jobs:
           cd /tmp
           /tmp/coex-wheel/bin/python -c 'from novastar_coex import CoexClient, __version__; print(__version__)'
           /tmp/coex-wheel/bin/coex --help
-      - uses: actions/upload-artifact@v7
+      - name: Smoke-test installation from the source distribution
+        run: |
+          mkdir /tmp/coex-source
+          tar -xzf dist/*.tar.gz -C /tmp/coex-source --strip-components=1
+          uv venv /tmp/coex-source-venv
+          uv pip install --python /tmp/coex-source-venv/bin/python /tmp/coex-source
+          cd /tmp
+          /tmp/coex-source-venv/bin/python -c 'from novastar_coex import CoexClient, __version__; print(__version__)'
+      - uses: actions/upload-artifact@v7.0.2
         with:
           name: release-assets
           path: dist/

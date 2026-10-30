@@ -25,12 +25,13 @@ versions. HACS validation and hassfest run separately.
 | --- | --- |
 | `custom_components/novastar_coex/` | Home Assistant integration and bundled brand images |
 | `custom_components/novastar_coex/coex/` | HA-independent client, models and CLI |
-| `dev/novastar_coex` | Relative symlink for editable client installs |
+| `dev/novastar_coex` | Relative symlink for editable installs from a Git checkout |
 | `tests/` | Fake HTTP controller, client/CLI tests and sanitized hardware fixtures |
 | `tests/ha/` | Tests using real Home Assistant config flows and entity platforms |
 | `scripts/` | Release metadata validation and deterministic integration archive |
 
 The wheel maps the nested `coex/` package to the import name `novastar_coex`.
+Git checkouts use the `dev/` symlink to supply that name during development.
 Home Assistant imports it relatively, so `manifest.json` has no pip requirements.
 Never import Home Assistant from the bundled client.
 
@@ -54,6 +55,7 @@ controller identifiers. The hardware fixtures preserve protocol shapes but repla
 screen UUIDs, cabinet IDs and identifying names with synthetic values. To reproduce
 the icon, run `uv run --with pillow python scripts/build_icon.py`.
 
-Build from a clean checkout and install the wheel in an isolated environment when
-changing packaging. The source distribution includes the development symlink and
-support files so it can be rebuilt independently.
+Build from a clean checkout and install both the wheel and source distribution in
+isolated environments when changing packaging. CI checks both installation paths.
+For editable development, clone the Git repository; the source distribution omits
+the development symlink and supports ordinary, non-editable installs.
